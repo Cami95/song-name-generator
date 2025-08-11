@@ -4,51 +4,63 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Song Names</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <title>Song Generator: Find your Song</title>
   </head>
   <body>
     <header>
       <h1>The song generator! Lets get some song names shall we?</h1>
     </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="How are you feeling today?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-      </form>
+    <div class="container">
+      <main>
+        <form>
+          <input
+            class="what-to-do"
+            type="text"
+            placeholder="How are you feeling today?"
+            autofocus
+            required
+            autocomplete="off"
+          />
+        </form>
 
-      <input type="submit" />
+        <input type="submit" class="submit-button" />
 
-      <div>
-        song lyrics placeholder from google:
-        <br />
-        More Love by Rebelution:
-        <br />
-        "Because you’re living an illusion I can’t wait till it hits ya
-        Recollection, your misconception Obsessed, you say the green is success
-        Well material gain causes serious stress More love Because you’re living
-        an illusion Wake up now yes you’re living in confusion You’re not a
-        scholar You’re a waste of a teacher Preach the dollars You’re a waste of
-        a preacher"
-      </div>
-    </main>
+        <div class="song">
+          song lyrics placeholder from google:
+          <br />
+          More Love by Rebelution:
+          <br />
+          "Because you’re living an illusion I can’t wait till it hits ya
+          Recollection, your misconception Obsessed, you say the green is
+          success Well material gain causes serious stress More love Because
+          you’re living an illusion Wake up now yes you’re living in confusion
+          You’re not a scholar You’re a waste of a teacher Preach the dollars
+          You’re a waste of a preacher"
+        </div>
+      </main>
+    </div>
 
     <script></script>
 
     <footer>
       This app was created by
-      <a href="https://github.com/Cami95"> Cami Johnson </a> and is
+      <a href="https://github.com/Cami95" target="_blank"> Cami Johnson </a> and
+      is
 
-      <a href="https://github.com/Cami95/song-name-generator">
+      <a href="https://github.com/Cami95/song-name-generator" target="_blank">
         open-sourced on Github
       </a>
       and is hosted on
-      <a href="https://app.netlify.com/teams/cami95/projects">Netlify</a>!
+      <a href="https://app.netlify.com/teams/cami95/projects" target="_blank"
+        >Netlify</a
+      >!
     </footer>
   </body>
 </html>
