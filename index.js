@@ -1,9 +1,18 @@
 function getSong(event) {
   event.preventDefault()
+
+
+
+  new Typewriter("#song", {
+    strings: "Song Lyrics",
+    autoStart: true,
+    delay: 1,
+    cursor: ""
+    
+  });
   
 
-  let songElement = document.querySelector("#song")
-  songElement.innerHTML = "Song Lyrics"
+  
 }
 
 
