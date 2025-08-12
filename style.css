@@ -30,8 +30,9 @@ form{
 
 .what-to-do{
     font-size: 16px;
-    border-radius: 50px;
-    border: none;
+    border: 2px solid purple;
+    border-radius: 30px;
+    padding: 10px;
     width: 80%;
     line-height: 20px;
     color: blue;

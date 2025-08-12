@@ -1,7 +1,9 @@
-
 function getSong(event) {
-  event.preventDefault
-  alert ("Looking for your Song...")
+  event.preventDefault()
+  
+
+  let songElement = document.querySelector("#song")
+  songElement.innerHTML = "Song Lyrics"
 }
 
 
